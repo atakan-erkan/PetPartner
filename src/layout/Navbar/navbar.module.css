@@ -1,0 +1,114 @@
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(33, 37, 41);
+  width: 100%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbarRow {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.navbarBrand {
+  padding: 0 5px;
+}
+.navbarNav {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  white-space: nowrap;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.navSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* .navbarStart {
+  flex-grow: 1 !important;
+  flex-shrink: 2 !important;
+  width: 100% !important;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.navbarCenter {
+  flex-grow: 2 !important;
+  flex-shrink: 1 !important;
+  width: 100% !important;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.navbarEnd {
+  flex-grow: 1 !important;
+  flex-shrink: 2 !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbarNav {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  white-space: nowrap;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.navSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+/* .searchInput {
+  background: transparent;
+  border-radius: 8px 0 0 8px;
+  border: 0.5px solid darkgrey;
+  padding: 5px 10px;
+  width: 300px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+input:focus {
+  outline: none;
+}
+.searchInput:focus {
+  border: 5px solid #a970ff;
+} */
+.searchInput {
+  background: transparent;
+  border-radius: 8px 0 0 8px;
+  border: 0.5px solid darkgrey;
+  padding: 5px 10px;
+  width: 300px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.searchBtn {
+  background: transparent;
+  border: transparent;
+}
